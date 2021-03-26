@@ -1,0 +1,17 @@
+{
+  "beautify.onSave": true,
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es5",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "jsx": "react",
+    "strict": true,
+    "strictPropertyInitialization": false
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build"
+  ]
+}

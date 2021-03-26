@@ -9,23 +9,28 @@
     "start": "webpack serve",
     "build": "webpack --mode production"
   },
-  "devServer":{
-    "port":6666
- },
+  "devServer": {
+    "port": 6666
+  },
   "devDependencies": {
     "html-webpack-plugin": "*",
+    "ts-loader": "^8.0.18",
     "webpack": "*",
-    "webpack-cli":"*",
+    "webpack-cli": "*",
     "webpack-dev-server": "*"
   },
   "dependencies": {
     "@babel/core": "*",
     "@babel/preset-env": "*",
-    "@babel/preset-react":"*",
+    "@babel/preset-react": "*",
+    "@types/node": "^14.14.36",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
     "babel-loader": "*",
-    "css-loader": "*",
+    "css-loader": "^5.2.0",
     "react": "*",
-    "react-dom":"*",
-    "style-loader": "*"
+    "react-dom": "*",
+    "style-loader": "^2.0.0",
+    "typescript": "^4.2.3"
   }
 }
